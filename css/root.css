@@ -1,0 +1,241 @@
+/* обнулення стилів */
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,
+details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    box-sizing: border-box;
+}
+
+:root {
+    --first: #5e77ee;
+    --second: #0c7e75;
+
+    --white: #fff;
+    --light: ivory;
+    --black: #000;
+    --dark: #071715;
+    --orange: #fa5c1a;
+    --danger: #b00b00;
+    --sun: #ef5;
+    --purpur: #70e;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    font-size: 14px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: var(--dark);
+    background: var(--white);
+}
+
+a {
+    color: var(--first);
+    text-decoration: underline;
+}
+
+a:hover,
+a:focus {
+    color: var(--danger);
+    text-decoration: none;
+}
+
+p {
+    padding: 0 0 10px;
+}
+
+/* heading */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+    font-family: serif;
+    padding: 0 0 20px;
+    line-height: 1;
+}
+
+h1,
+.h1 {
+    font-size: 2.25em;
+}
+
+h2,
+.h2 {
+    font-size: 2em;
+}
+
+h3,
+.h3 {
+    font-size: 1.75em;
+}
+
+h4,
+.h4 {
+    font-size: 1.5em;
+}
+
+h5,
+.h5 {
+    font-size: 1.25em;
+}
+
+h6,
+.h6 {
+    font-size: 1em;
+}
+
+hr {
+    margin: 20px;
+    border: 0;
+    border-top: 1px solid var(--dark)
+}
+
+/* default tags */
+b,
+strong,
+.b,
+.strong {
+    font-weight: 700;
+}
+
+i,
+em,
+cite,
+dfn,
+address,
+var,
+.i,
+.em {
+    font-style: italic;
+}
+
+.upper,
+.uppercase {
+    text-transform: uppercase;
+}
+
+.lover,
+.lovercase {
+    text-transform: lowercase;
+}
+
+.capital,
+.capitalize {
+    text-transform: capitalize;
+}
+
+sup,
+.sup {
+    font-size: 0.6em;
+    vertical-align: super;
+    font-family: sans-serif;
+}
+
+sub,
+.sub {
+    font-size: 0.6em;
+    vertical-align: sub;
+    font-family: sans-serif;
+}
+
+samp,
+tt,
+ins {
+    font-family: "Courier New", Courier, mono;
+}
+
+mark,
+.mark {
+    background: var(--first);
+    padding: 1px 3px;
+}
+
+blockquote,
+.blockquote {
+    margin: 5px 5px 5px 60px;
+    padding: 5px 5px 5px 10px;
+    font-family: serif;
+    font-style: italic;
+    border-left: 5px solid var(--first);
+    border-right: 5px solid var(--first);
+    border-radius: 10px;
+}
+
+q,
+.q {
+    font-family: serif;
+    font-style: italic;
+    quotes: "«""»";
+}
+
+q:before {
+    content: open-quote;
+    font-size: 1.6em;
+}
+
+q:after {
+    content: close-quote;
+    font-size: 1.6em;
+}
+
+del,
+s,
+.del,
+.s {
+    text-decoration: line-through;
+}
+
+small,
+.small {
+    font-size: 0.8em;
+}
+
+big,
+.big {
+    font-size: 1.2em;
+}
+
+pre,
+code {
+    padding: 5px;
+    background: var(--light);
+}
+
+/* list */
+ul,
+ol {
+    padding: 0 0 10px;
+    margin-left: 40px;
+}
+
+ul li {
+    list-style: disc outside;
+}
+
+ul li li {
+    list-style: circle outside;
+}
+
+ul li li li {
+    list-style: square outside;
+}
+
+ol li {
+    list-style: decimal outside;
+}

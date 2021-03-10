@@ -1,0 +1,18 @@
+/* глобальне обнулення та стилізація  */
+@import url('./root.css');
+
+/* сітка  */
+@import url('./grid.css');
+
+/* temp */
+.bg-test{
+    background: var(--orange);
+    color: var(--white);
+    padding: 10px;
+}
+
+.bg-test-2{
+    background: var(--purpur);
+    color: var(--white);
+    padding: 10px;
+}
