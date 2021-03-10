@@ -28,3 +28,9 @@
     color: var(--white);
     padding: 10px;
 }
+
+.bg-test-3{
+    background: var(--dark);
+    color: var(--white);
+    padding: 10px;
+}
