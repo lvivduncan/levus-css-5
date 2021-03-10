@@ -1,11 +1,23 @@
+/* кольори */
+@import url('./colors.css');
+
 /* глобальне обнулення та стилізація  */
 @import url('./root.css');
 
 /* сітка  */
 @import url('./grid.css');
 
+/* відступ */
+@import url('./indent.css');
+
 /* temp */
 .bg-test{
+    background: var(--first);
+    color: var(--white);
+    padding: 10px;
+}
+
+.bg-test-1{
     background: var(--orange);
     color: var(--white);
     padding: 10px;
