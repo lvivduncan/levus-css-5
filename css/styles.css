@@ -5,10 +5,13 @@
 @import url('./root.css');
 
 /* сітка  */
-@import url('./grid.css');
+@import url('./grids.css');
 
 /* відступ */
-@import url('./indent.css');
+@import url('./indents.css');
+
+/**/
+@import url('./inputs.css');
 
 /* temp */
 .bg-test{
@@ -31,6 +34,12 @@
 
 .bg-test-3{
     background: var(--dark);
+    color: var(--white);
+    padding: 10px;
+}
+
+.bg-test-4{
+    background: var(--second);
     color: var(--white);
     padding: 10px;
 }

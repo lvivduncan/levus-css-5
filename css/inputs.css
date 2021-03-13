@@ -1,0 +1,51 @@
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="date"],
+input[type="number"],
+input[type="tel"],
+input[type="search"]{
+    padding: 10px;
+    border: 1px solid var(--gray);
+    border-radius: 5px;
+    outline: none;
+    color: var(--black);
+    width: calc(100% - 20px);
+}
+
+input[type="date"]{
+    padding: 8px 10px 7px;
+}
+
+input[type="button"],
+input[type="reset"],
+button,
+.button{
+    padding: 10px;
+    border: 1px solid var(--gray);
+    border-radius: 5px;
+    outline: none;
+    color: var(--black);
+}
+
+textarea{
+    resize: vertical;
+    padding: 10px;
+    border: 1px solid var(--gray);
+    border-radius: 5px;
+    outline: none;
+    color: var(--black);
+    width: calc(100% - 20px);
+    min-height: 80px;
+}
+
+label{
+    display: inline-flex;
+    margin: 0 0 5px;
+    cursor: pointer;
+}
+
+::placeholder{
+    color: var(--dark);
+}

@@ -11,7 +11,7 @@
 
     <div style="height:100px"></div>
 
-    <div class="w-1200">
+    <div class="w-1200 p-30" style="text-align: center;">
         <p>font-family: 'Nunito', sans-serif;</p>
         <h1>Заголовок 1</h1>
         <h2>Заголовок 2</h2>
@@ -21,11 +21,78 @@
         <h6>Заголовок 6</h6>
     </div>
 
-    <hr>
 
-    <div class="w-1200">
-        <h1 style="color: var(--danger)">grid-6421 gap-10</h1>
-        <div class="grid-6421 gap-10">
+    <div class="w-1200 p-30">
+        <h1 style="color: var(--danger)">12-колоночний макет</h1>
+        
+        <h2>grid gap-20</h2>
+        <div class="grid gap-20 mb-10">
+            <div class="d-6 n-4 t-6 m-12 bg-test">d-6 n-4 t-6 m-12</div>
+            <div class="d-3 n-4 t-6 m-12 bg-test">d-3 n-4 t-6 m-12</div>
+            <div class="d-3 n-4 t-6 m-12 bg-test">d-3 n-4 t-6 m-12</div>
+        </div>
+        
+        <h2>grid gap-15</h2>
+        <div class="grid gap-15 mb-10">
+            <div class="d-4 n-3 t-4 m-12 bg-test-1">d-4 n-3 t-4 m-12 b</div>
+            <div class="d-4 n-3 t-4 m-12 bg-test-1">d-4 n-3 t-4 m-12 b</div>
+            <div class="d-4 n-6 t-4 m-12 bg-test-1">d-4 n-6 t-4 m-12 b</div>
+        </div>
+
+        <h2>grid dense (masonry tile) gap-10</h2>
+        <div class="grid dense gap-10 mb-10">
+            <div class="d-12 n-6 t-4 m-6 bg-test-2">
+                <strong class="p-20">1:</strong> d-12 n-3 t-4 m-6
+            </div>
+            <div class="d-10 n-8 t-4 m-6 bg-test-2">
+                <strong class="p-20">2:</strong> d-10 n-3 t-4 m-6
+            </div>
+            <div class="d-8 n-4 t-4 m-6 bg-test-2">
+                <strong class="p-20">3:</strong> d-8 n-3 t-4 m-6
+            </div>
+            <div class="d-6 n-6 t-4 m-6 bg-test-2">
+                <strong class="p-20">4:</strong> d-6 n-3 t-4 m-6
+            </div>
+            <div class="d-4 n-6 t-4 m-6 bg-test-2">
+                <strong class="p-20">5:</strong> d-4 n-3 t-4 m-6
+            </div>
+            <div class="d-2 n-2 t-4 m-6 bg-test-2">
+                <strong class="p-20">6:</strong> d-2 n-3 t-4 m-6
+            </div>
+            <div class="d-6 n-4 t-4 m-12 bg-test-2">
+                <strong class="p-20">7:</strong> d-6 n-3 t-4 m-6
+            </div>
+        </div>
+    </div>
+
+    <div class="w-1200 p-30">
+        <h1 style="color: var(--danger)">6-колоночний симетричний</h1>
+
+        <h2>grid-6 gap-10</h2>
+
+        <div class="grid-6 gap-10">
+            <div class="bg-test radius-10">
+                <p>6 - 4 - 2 - 1</p>
+                <p>gap-10</p>
+                <p>radius-10</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+            </div>
+            <div class="bg-test">
+                <p>6 - 4 - 2 - 1</p>
+                <p>gap-10</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+            </div>
+            <div class="bg-test radius-10">
+                <p>6 - 4 - 2 - 1</p>
+                <p>gap-10</p>
+                <p>radius-10</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+            </div>
+            <div class="bg-test">
+                <p>6 - 4 - 2 - 1</p>
+                <p>gap-10</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+            </div>
             <div class="bg-test radius-10">
                 <p>6 - 4 - 2 - 1</p>
                 <p>gap-10</p>
@@ -73,11 +140,12 @@
         </div>
     </div>
 
-    <hr>
+    <div class="w-1200 p-30">
+        <h1 style="color: var(--danger)">5-колоночний симетричний</h1>
 
-    <div class="w-1200">
-        <h1 style="color: var(--danger)">grid-4321 gap-20</h1>
-        <div class="grid-4321 gap-20">
+        <h2>grid-5 gap-20</h2>
+
+        <div class="grid-5 gap-20">
             <div class="bg-test-1">
                 <p>4 - 3 - 2 - 1</p>
                 <p>gap-20</p>
@@ -121,11 +189,12 @@
         </div>
     </div>
 
-    <hr>
+    <div class="w-1200 p-30">
+        <h1 style="color: var(--danger)">4-колоночний симетричний</h1>
 
-    <div class="w-1200">
-        <h1 style="color: var(--danger)">grid-4221 gap-5</h1>
-        <div class="grid-4221 gap-5">
+        <h2>grid-4 gap-5</h2>
+
+        <div class="grid-4 gap-5">
             <div class="bg-test-2">
                 <p>4 - 2 - 2 - 1</p>
                 <p>gap-5</p>
@@ -149,11 +218,12 @@
         </div>
     </div>
 
-    <hr>
+    <div class="w-1200 p-30">
+        <h1 style="color: var(--danger)">3-колоночний симетричний</h1>
 
-    <div class="w-1200">
-        <h1 style="color: var(--danger)">grid-2221 gap-10</h1>
-        <div class="grid-2221 gap-10">
+        <h2>grid-3 gap-10</h2>
+
+        <div class="grid-3 gap-10">
             <div class="bg-test-3">
                 <p>2 - 2 - 2 - 1</p>
                 <p>gap-10</p>
@@ -175,6 +245,61 @@
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
             </div>
         </div>
+    </div>
+
+    <div class="w-1200 p-30">
+        <h1 style="color: var(--danger)">2-колоночний симетричний</h1>
+
+        <h2>grid-2 gap-10</h2>
+
+        <div class="grid-2 gap-10">
+            <div class="bg-test-1">
+                <p>2 - 2 - 2 - 1</p>
+                <p>gap-10</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+            </div>
+            <div class="bg-test-1">
+                <p>2 - 2 - 2 - 1</p>
+                <p>gap-10</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+            </div>
+            <div class="bg-test-1">
+                <p>2 - 2 - 2 - 1</p>
+                <p>gap-10</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+            </div>
+            <div class="bg-test-1">
+                <p>2 - 2 - 2 - 1</p>
+                <p>gap-10</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="w-1200 p-30">
+        <div class="grid-4 gap-20">
+            <div>
+                <label for="id-number">input number</label>
+                <input type="number" id="id-number">
+            </div>
+            <div>
+                <label for="id-date">input date</label>
+                <input type="date" id="id-date">
+            </div>
+            <div>
+                <label for="id-tel">input tel</label>
+                <input type="tel" placeholder="067 1234567" id="id-tel">
+            </div>
+            <div>
+                <label for="id-text">input text</label>
+                <input type="text" placeholder="custom text" id="id-text">
+            </div>
+        </div>
+    </div>
+
+    <div class="w-1200 p-30">
+        <label for="id-textarea">textarea</label>
+        <textarea id="id-textarea"></textarea>
     </div>
 
     <div style="height:100px"></div>

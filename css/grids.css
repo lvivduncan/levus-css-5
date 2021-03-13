@@ -1,0 +1,313 @@
+/* шпальта */
+.w-1200{
+    width: 1200px;
+    margin: auto;
+}
+
+@media(max-width: 1240px){
+    .w-1200{
+        width: 95%;
+    }
+}
+
+
+
+
+/* 12-grid system */
+.grid{
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+}
+
+
+/* masonry */
+.grid.dense{
+    grid-auto-flow: dense;
+}
+
+
+
+/* desktop */
+.d-12{
+    grid-column: span 12;
+}
+.d-11{
+    grid-column: span 11;
+}
+.d-10{
+    grid-column: span 10;
+}
+.d-9{
+    grid-column: span 9;
+}
+.d-8{
+    grid-column: span 8;
+}
+.d-7{
+    grid-column: span 7;
+}
+.d-6{
+    grid-column: span 6;
+}
+.d-5{
+    grid-column: span 5;
+}
+.d-4{
+    grid-column: span 4;
+}
+.d-3{
+    grid-column: span 3;
+}
+.d-2{
+    grid-column: span 2;
+}
+.d-1{
+    grid-column: span 1;
+}
+
+/* netbook */
+@media(max-width: 996px){
+    .n-12{
+        grid-column: span 12;
+    }
+    .n-11{
+        grid-column: span 11;
+    }
+    .n-10{
+        grid-column: span 10;
+    }
+    .n-9{
+        grid-column: span 9;
+    }
+    .n-8{
+        grid-column: span 8;
+    }
+    .n-7{
+        grid-column: span 7;
+    }
+    .n-6{
+        grid-column: span 6;
+    }
+    .n-5{
+        grid-column: span 5;
+    }
+    .n-4{
+        grid-column: span 4;
+    }
+    .n-3{
+        grid-column: span 3;
+    }
+    .n-2{
+        grid-column: span 2;
+    }
+    .n-1{
+        grid-column: span 1;
+    }
+}
+
+/* tablet */
+@media(max-width: 776px){
+    .t-12{
+        grid-column: span 12;
+    }
+    .t-11{
+        grid-column: span 11;
+    }
+    .t-10{
+        grid-column: span 10;
+    }
+    .t-9{
+        grid-column: span 9;
+    }
+    .t-8{
+        grid-column: span 8;
+    }
+    .t-7{
+        grid-column: span 7;
+    }
+    .t-6{
+        grid-column: span 6;
+    }
+    .t-5{
+        grid-column: span 5;
+    }
+    .t-4{
+        grid-column: span 4;
+    }
+    .t-3{
+        grid-column: span 3;
+    }
+    .t-2{
+        grid-column: span 2;
+    }
+    .t-1{
+        grid-column: span 1;
+    }
+}
+
+/* mobile */
+@media(max-width: 540px){
+    .m-12{
+        grid-column: span 12;
+    }
+    .m-11{
+        grid-column: span 11;
+    }
+    .m-10{
+        grid-column: span 10;
+    }
+    .m-9{
+        grid-column: span 9;
+    }
+    .m-8{
+        grid-column: span 8;
+    }
+    .m-7{
+        grid-column: span 7;
+    }
+    .m-6{
+        grid-column: span 6;
+    }
+    .m-5{
+        grid-column: span 5;
+    }
+    .m-4{
+        grid-column: span 4;
+    }
+    .m-3{
+        grid-column: span 3;
+    }
+    .m-2{
+        grid-column: span 2;
+    }
+    .m-1{
+        grid-column: span 1;
+    }
+}
+
+
+
+
+/* однакові колонки */
+.grid-6{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+}
+
+@media(max-width: 996px){
+    .grid-6{
+        grid-template-columns: repeat(4,1fr);
+    }
+}
+
+@media(max-width: 776px){
+    .grid-6{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+@media(max-width: 540px){
+    .grid-6{
+        grid-template-columns: 1fr;
+    }
+}
+
+
+
+.grid-5{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+}
+
+@media(max-width: 996px){
+    .grid-5{
+        grid-template-columns: repeat(4,1fr);
+    }
+}
+
+@media(max-width: 776px){
+    .grid-5{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+@media(max-width: 540px){
+    .grid-5{
+        grid-template-columns: 1fr;
+    }
+}
+
+
+
+
+.grid-4{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+
+@media(max-width: 996px){
+    .grid-4{
+        grid-template-columns: repeat(3,1fr);
+    }
+}
+
+@media(max-width: 776px){
+    .grid-4{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+@media(max-width: 540px){
+    .grid-4{
+        grid-template-columns: 1fr;
+    }
+}
+
+
+.grid-3{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+@media(max-width: 996px){
+    .grid-3{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+@media(max-width: 540px){
+    .grid-3{
+        grid-template-columns: 1fr;
+    }
+}
+
+
+.grid-2{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+@media(max-width: 540px){
+    .grid-2{
+        grid-template-columns: 1fr;
+    }
+}
+
+
+
+/* відступи */
+.gap-20{
+    grid-gap: 20px;
+}
+
+.gap-15{
+    grid-gap: 15px;
+}
+
+.gap-10{
+    grid-gap: 10px;
+}
+
+.gap-5{
+    grid-gap: 5px;
+}
