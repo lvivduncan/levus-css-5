@@ -6,6 +6,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>levus-css-5</title>
     <link rel="stylesheet" href="css/styles.css">
+    <style>
+        .bg-test{
+            background: var(--first);
+            color: var(--white);
+            padding: 10px;
+        }
+
+        .bg-test-1{
+            background: var(--orange);
+            color: var(--white);
+            padding: 10px;
+        }
+
+        .bg-test-2{
+            background: var(--purpur);
+            color: var(--white);
+            padding: 10px;
+        }
+
+        .bg-test-3{
+            background: var(--dark);
+            color: var(--white);
+            padding: 10px;
+        }
+
+        .bg-test-4{
+            background: var(--second);
+            color: var(--white);
+            padding: 10px;
+        }
+    </style>
 </head>
 <body>
 
@@ -298,8 +329,24 @@
     </div>
 
     <div class="w-1200 p-30">
-        <label for="id-textarea">textarea</label>
-        <textarea id="id-textarea"></textarea>
+        <div class="grid gap-20 mb-10">
+            <div class="d-9 n-4 t-6 m-12">
+                <label for="id-textarea">textarea</label>
+                <textarea id="id-textarea"></textarea>                
+            </div>
+            <div class="d-3 n-4 t-6 m-12">
+                <label for="id-select">select option</label>
+                <select id="id-select">
+                    <option></option>
+                    <option>option 2</option>
+                    <option>option 3</option>
+                </select>
+            </div>
+        </div>
+    </div>
+
+    <div class="w-1200 p-30">
+        <button>button</button> <input type="button" value="input:button"> <a href="" class="button">a.button</a> <span class="button">span.button</span> <button class="red">button.red</button> <button class="green">button.green</button> <button class="orange">button.orange</button> <button class="disabled">button.disabled</button>
     </div>
 
     <div style="height:100px"></div>

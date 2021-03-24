@@ -12,34 +12,3 @@
 
 /**/
 @import url('./inputs.css');
-
-/* temp */
-.bg-test{
-    background: var(--first);
-    color: var(--white);
-    padding: 10px;
-}
-
-.bg-test-1{
-    background: var(--orange);
-    color: var(--white);
-    padding: 10px;
-}
-
-.bg-test-2{
-    background: var(--purpur);
-    color: var(--white);
-    padding: 10px;
-}
-
-.bg-test-3{
-    background: var(--dark);
-    color: var(--white);
-    padding: 10px;
-}
-
-.bg-test-4{
-    background: var(--second);
-    color: var(--white);
-    padding: 10px;
-}
